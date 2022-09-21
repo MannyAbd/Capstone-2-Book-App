@@ -1,0 +1,15 @@
+html {
+  font-size: 22px;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
