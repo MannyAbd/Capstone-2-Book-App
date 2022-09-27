@@ -1,9 +1,10 @@
-import UserForm from './UserForm';
+import Register from './Register';
+
 
 function App() {
   return (
     <main className="App">
-      <UserForm />
+      <Register />
     </main>
   );
 }
