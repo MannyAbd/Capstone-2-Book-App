@@ -11,25 +11,16 @@ function Register({ register }) {
   const [success, setSuccess] = useState(false);
   const [user, setUser] = useState('');
   const [pwd, setPwd] = useState('');
-  console.debug(
-      "SignupForm",
-      "register=", typeof register,
-      "formData=", formData,
-      "formErrors=", formErrors,
-  );
-
 
   async function handleSubmit(evt) {
     evt.preventDefault();
           console.log(formData.username)
-            setSuccess(true);
+            setSuccess(true);        
   }
-
   function handleChange(evt) {
     const { name, value } = evt.target;
     setFormData(data => ({ ...data, [name]: value }));
   }
-
   return (
     <>
             {success ? (

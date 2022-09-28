@@ -1,6 +1,3 @@
-/** Database for auth-api demo. */
-
-
 const { Client } = require("pg");
 const { DB_URI } = require("./config");
 
