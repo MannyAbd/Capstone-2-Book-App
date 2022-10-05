@@ -10,11 +10,12 @@ html {
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
   color: #fff;
+
 }
 
 body {
   min-height: 100vh;
-  background-color: dodgerblue;
+  background-color: rgb(65, 49, 82);
 }
 
 .App {
@@ -73,7 +74,7 @@ button {
   font-size: 0.75rem;
   border-radius: 0.5rem;
   background: #000;
-  color: #fff;
+  color: rgb(228, 222, 247);
   padding: 0.25rem;
   position: relative;
   bottom: -10px;
@@ -93,18 +94,18 @@ button {
 }
 
 .valid {
-  color: limegreen;
+  color: rgb(75, 171, 75);
   margin-left: 0.25rem;
 }
 
 .invalid {
-  color: red;
+  color: rgb(172, 96, 96);
   margin-left: 0.25rem;
 }
 
 .errmsg {
-  background-color: lightpink;
-  color: firebrick;
+  background-color: rgb(254, 175, 187);
+  color: rgb(78, 21, 21);
   font-weight: bold;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
