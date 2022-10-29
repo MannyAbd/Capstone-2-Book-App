@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "../../.."
+        },
+        {
+            "path": "../../../../Springboard"
+        },
+        {
+            "path": "../../../../booklib-app-using-react-js-and-openlib-api"
+        }
+    ]
+}
